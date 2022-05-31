@@ -1,0 +1,54 @@
+name: compile and release slides
+on:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.PERSONAL_TOKEN }}
+
+      - name: Build latex
+        uses: xu-cheng/latex-action@v2
+        with:
+          root_file: sv-k8s-autoscaling.tex
+
+      - name: Prepare assets
+        run: |
+          mkdir -p assets
+          cp ./sv-k8s-autoscaling.pdf ./assets/
+      - name: Push Assets
+        uses: stefanzweifel/git-auto-commit-action@v4.1.2
+        with:
+          file_pattern: assets/*
+          commit_message: "chore(ci): Add compiled pdf into assets [skip ci]"
+          branch: ${{ github.head_ref }}
+
+      - name: semver
+        uses: anitvam/conventionalcommit-semantic-releasing@main
+        with:
+          token: ${{ secrets.PERSONAL_TOKEN }}
+
+  delete-assets:
+    needs: compile
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.PERSONAL_TOKEN }}
+      - name: Delete assets
+        run: |
+          git pull
+          rm -frd assets
+      - name: Push Assets
+        uses: stefanzweifel/git-auto-commit-action@v4.1.2
+        with:
+          commit_message: "chore(ci): Remove compiled pdf from assets [skip ci]"
+          branch: ${{ github.head_ref }}
