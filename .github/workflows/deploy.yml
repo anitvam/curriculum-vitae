@@ -17,12 +17,12 @@ jobs:
       - name: Build latex
         uses: xu-cheng/latex-action@v2
         with:
-          root_file: sv-k8s-autoscaling.tex
+          root_file: curriculum-vitae.tex
 
       - name: Prepare assets
         run: |
           mkdir -p assets
-          cp ./sv-k8s-autoscaling.pdf ./assets/
+          cp ./*.pdf ./assets/
       - name: Push Assets
         uses: stefanzweifel/git-auto-commit-action@v4.1.2
         with:
