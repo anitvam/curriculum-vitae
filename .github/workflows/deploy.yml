@@ -18,7 +18,7 @@ jobs:
         uses: xu-cheng/latex-action@v2
         with:
           root_file: curriculum-vitae.tex
-          compiler: pdflatex
+          compiler: lualatex
 
       - name: Prepare assets
         run: |
