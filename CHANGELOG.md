@@ -1,3 +1,11 @@
+## [0.3.2](https://github.com/anitvam/curriculum-vitae/compare/v0.3.1...v0.3.2) (2022-08-26)
+
+
+### Bug Fixes
+
+* change position of education and experience ([28ebba5](https://github.com/anitvam/curriculum-vitae/commit/28ebba55b61df101b6a0463016ea07f121bae8c7))
+* fix typo in links ([30e8540](https://github.com/anitvam/curriculum-vitae/commit/30e8540d7e74bae29981a3a39efb132853d41925))
+
 ## [0.3.1](https://github.com/anitvam/curriculum-vitae/compare/v0.3.0...v0.3.1) (2022-08-26)
 
 
