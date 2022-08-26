@@ -1,3 +1,10 @@
+## [0.3.1](https://github.com/anitvam/curriculum-vitae/compare/v0.3.0...v0.3.1) (2022-08-26)
+
+
+### Bug Fixes
+
+* change template to cv ([5b4c4e5](https://github.com/anitvam/curriculum-vitae/commit/5b4c4e574fd10880b9c5654c43e2d7be42c5c839))
+
 # [0.3.0](https://github.com/anitvam/curriculum-vitae/compare/v0.2.0...v0.3.0) (2022-08-25)
 
 
