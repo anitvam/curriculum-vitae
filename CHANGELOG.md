@@ -1,3 +1,15 @@
+# [0.4.0](https://github.com/anitvam/curriculum-vitae/compare/v0.3.2...v0.4.0) (2023-01-08)
+
+
+### Bug Fixes
+
+* add parameter to checkout action ([0d0b3c7](https://github.com/anitvam/curriculum-vitae/commit/0d0b3c7f5815314a54830caff198f70611769ac6))
+
+
+### Features
+
+* update cv info ([d2c4ace](https://github.com/anitvam/curriculum-vitae/commit/d2c4ace5cbf7defb03d61265c94deb8c6b5d7bf4))
+
 ## [0.3.2](https://github.com/anitvam/curriculum-vitae/compare/v0.3.1...v0.3.2) (2022-08-26)
 
 
