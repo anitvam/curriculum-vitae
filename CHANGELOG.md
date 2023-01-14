@@ -1,3 +1,10 @@
+# [0.5.0](https://github.com/anitvam/curriculum-vitae/compare/v0.4.0...v0.5.0) (2023-01-14)
+
+
+### Features
+
+* add details to Projects Section ([db4dafe](https://github.com/anitvam/curriculum-vitae/commit/db4dafeee220177d5c65f589357d26d82df3e1fd))
+
 # [0.4.0](https://github.com/anitvam/curriculum-vitae/compare/v0.3.2...v0.4.0) (2023-01-08)
 
 
