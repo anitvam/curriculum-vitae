@@ -1,3 +1,10 @@
+## [0.5.1](https://github.com/anitvam/curriculum-vitae/compare/v0.5.0...v0.5.1) (2023-01-14)
+
+
+### Bug Fixes
+
+* experience refactoring ([bfa71c1](https://github.com/anitvam/curriculum-vitae/commit/bfa71c185caf800e91ac4166c489a5c3033d2ae6))
+
 # [0.5.0](https://github.com/anitvam/curriculum-vitae/compare/v0.4.0...v0.5.0) (2023-01-14)
 
 
