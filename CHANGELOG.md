@@ -1,3 +1,10 @@
+## [0.6.1](https://github.com/anitvam/curriculum-vitae/compare/v0.6.0...v0.6.1) (2023-05-11)
+
+
+### Bug Fixes
+
+* add details and fix typos ([d935896](https://github.com/anitvam/curriculum-vitae/commit/d935896c98022e7a8018ff2f92cfd54d290d1e2c))
+
 # [0.6.0](https://github.com/anitvam/curriculum-vitae/compare/v0.5.1...v0.6.0) (2023-05-11)
 
 
