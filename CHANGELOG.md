@@ -1,3 +1,10 @@
+## [0.6.2](https://github.com/anitvam/curriculum-vitae/compare/v0.6.1...v0.6.2) (2023-05-11)
+
+
+### Bug Fixes
+
+* fixed spacing in portfolio projects ([5230856](https://github.com/anitvam/curriculum-vitae/commit/5230856eb6d994d2683732201072918659140c20))
+
 ## [0.6.1](https://github.com/anitvam/curriculum-vitae/compare/v0.6.0...v0.6.1) (2023-05-11)
 
 
