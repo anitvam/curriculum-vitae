@@ -1,105 +1,185 @@
-%%%%%%%%%%%%%%%%%
-% This is an example CV created using altacv.cls (v1.1, 21 November 2016) written by
-% LianTze Lim (liantze@gmail.com), based on the
-% Cv created by BusinessInsider at http://www.businessinsider.my/a-sample-resume-for-marissa-mayer-2016-7/?r=US&IR=T
-%
-%% It may be distributed and/or modified under the
-%% conditions of the LaTeX Project Public License, either version 1.3
-%% of this license or (at your option) any later version.
-%% The latest version of this license is in
-%%    http://www.latex-project.org/lppl.txt
-%% and version 1.3 or later is part of all distributions of LaTeX
-%% version 2003/12/01 or later.
-%%%%%%%%%%%%%%%%
-
-%% If you want to use \orcid or the
-%% academicons icons, add "academicons"
-%% to the \documentclass options.
-%% Then compile with XeLaTeX or LuaLaTeX.
-% \documentclass[10pt,a4paper,academicons]{altacv}
 \documentclass[10pt,a4paper]{altacv}
-
-%% AltaCV uses the fontawesome and academicon fonts
-%% and packages.
-%% See texdoc.net/pkg/fontawecome and http://texdoc.net/pkg/academicons for full list of symbols.
-%% When using the "academicons" option,
-%% Compile with LuaLaTeX for best results. If you
-%% want to use XeLaTeX, you may need to install
-%% Academicons.ttf in your operating system's font %% folder.
-
-
-% Change the page layout if you need to
-%\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1cm,bottom=1cm}
-\geometry{left=1cm,right=11cm,marginparwidth=9cm,marginparsep=1cm,top=1cm,bottom=1cm}
-
-% Change the font if you want to.
-
-% If using pdflatex:
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage[default]{lato}
-\usepackage{hyperref}
-
-% If using xelatex or lualatex:
-% \setmainfont{Lato}
-
-% Change the colours if you want to
-\definecolor{Primary}{HTML}{32746D}
-\definecolor{SlateGrey}{HTML}{2E2E2E}
-\definecolor{LightGrey}{HTML}{666666}
-\colorlet{heading}{Primary}
-\colorlet{accent}{Primary}
-\colorlet{emphasis}{SlateGrey}
-\colorlet{body}{LightGrey}
-
-% Change the bullets for itemize and rating marker
-% for \cvskill if you want to
-\renewcommand{\itemmarker}{{\small\textbullet}}
-\renewcommand{\ratingmarker}{\faCircle}
-
+\usepackage{cv-style}
 \begin{document}
     \name{Martina Baiardi}
-    \tagline{Computer Science and Engineering Student}
+    \tagline{Research Fellow}
     \personalinfo{%
-    % Not all of these are required!
-    % You can add your own with \printinfo{symbol}{detail}
+        % You can add your own with \printinfo{symbol}{detail}
         \email{martina.baiardi.98@gmail.com}
-%   \phone{+49-173-6895039}
+    %   \phone{+49-173-6895039}
         \location{Cesena, Italy}
         \github{github.com/anitvam}
         \linkedin{linkedin.com/in/martina-baiardi}
-
-    % I'm just making this up though.
-%   \orcid{orcid.org/0000-0000-0000-0000} % Obviously making this up too. If you want to use this field (and also other academicons symbols), add "academicons" option to \documentclass{altacv}
+        %\orcid{orcid.org/0000-0000-0000-0000} % Obviously making this up too. If you want to use this field (and also other academicons symbols), add "academicons" option to \documentclass{altacv}
     }
 
-%% Make the header extend all the way to the right, if you want. Extend the right margin by 8cm (=6.8cm marginparwidth + 1.2cm marginparsep)
+    %% Make the header extend all the way to the right, if you want. Extend the right margin by 8cm (=6.8cm marginparwidth + 1.2cm marginparsep)
     \begin{adjustwidth}{}{-8cm}
         \makecvheader
     \end{adjustwidth}
 
-%% Provide the file name containing the sidebar contents as an optional parameter to \cvsection.
-%% You can always just use \marginpar{...} if you do
-%% not need to align the top of the contents to any
-%% \cvsection title in the "main" bar.
-    \cvsection[pagesidebar]{Education}
+\begin{adjustwidth}{}{-9cm}
+    \cvsection{Education}
 
-    \cvevent{M.Sc. in Engineering and Computer Science}{University of Bologna}{2020 -- ongoing}{Cesena, Italy}
+    \cvblock{M.Sc. in Engineering and Computer Science}{University of Bologna}{2020--2023}{Cesena, Italy}
+    \textbf{110L/110} \newline
+    \textbf{Thesis}: JACOP: Programming BDI Agents with Pluggable Concurrency Model \newline
+    \textbf{Supervisor: Giovanni Ciatto} \newline \textbf{Co-Supervisors: Andrea Omicini, Jomi F. Hübner}
 
     \divider
 
-    \cvevent{B.Sc. in Engineering and Computer Science}{University of Bologna}{2017 -- 2020}{Cesena, Italy}
+    \cvblock{Curricular Internship}{University of Bologna}{03--05/2020}{Cesena, Italy}
+    Study of a Kubernetes cluster: main aspects, tools and realization of a cluster on virtual machines
+
+    \divider
+
+    \cvblock{B.Sc. in Engineering and Computer Science}{University of Bologna}{2017--2020}{Cesena, Italy}
     \textbf{110L/110} \newline
-    \textbf{Thesis}: Controllo e Scalabilità Automatizzati in Cluster Kubernetes \newline
+    \textbf{Thesis}: Kubernetes cluster autoscaling and management: a case study\newline
     \textbf{Supervisor: Vittorio Ghini}
 
     \divider
 
-    \cvevent{Accounting degree in Business Information Systems}{Istituto Tecnico Economico "R. Serra"}{2017}{Cesena, Italy}
+    \cvblock{Accounting degree in Business Information Systems}{ITE "R. Serra"}{2017}{Cesena, Italy}
     \textbf{100/100}
 
     \divider
 
+\end{adjustwidth}
+
+\begin{adjustwidth}{}{-9cm}
+    \cvsection{Research Contracts}
+
+    \cvblock{Research Scholarship for hardware system management within the StairwAI project}{DISI - University of Bologna}{01--07/2023}{Cesena, Italy \bigskip}
+    \textbf{Supervisors: Andrea Borghesi, Giovanni Ciatto}
+
+    \divider
+
+\end{adjustwidth}
+
+\begin{adjustwidth}{}{-9cm}
+    \cvsection{Teaching}
+
+    \cvblock{Tutor for the course "Programmazione ad Oggetti"}{DISI - Laurea in Ingegneria e Scienze Informatiche}{A.Y. 2022/2023}{Cesena, Italy}
+    \textbf{Supervisor: Mirko Viroli}
+
+    \divider
+
+    \cvblock{Tutor for the course "Sistemi Virtualizzati"}{DISI - Laurea in Tecnologie dei Sistemi Informatici}{A.Y. 2021/2022, \newline A.Y. 2022/2023}{Cesena, Italy}
+    \textbf{Supervisor: Vittorio Ghini}
+
+    \divider
+
+    \cvblock{Tutor for the course "Metodi Numerici"}{DISI - Laurea in Ingegneria e Scienze Informatiche}{A.Y. 2021/2022}{Cesena, Italy}
+    \textbf{Supervisor: Lucia Romani}
+
+    \divider
+
+\end{adjustwidth}
+\clearpage
+
+\begin{adjustwidth}{}{-9cm}
+    \cvsection{Previous work experience}
+
+    \cvblock{Web Developer}{Blockvision}{2020--2022}{Cesena, Italy}
+    \worknote
+
+    \divider
+
+    \cvblock{Waitress}{Il Localino}{2019--2021}{Gambettola, Italy}
+    \worknote
+
+    \divider
+
+    \cvblock{Bartender}{Rockin Park}{Summer \newline 2017--2019}{Cesena, Italy}
+    \worknote
+
+    \divider
+
+    \cvblock{Wardrobe Attendant}{Vidia Club}{Winter \newline 2016--2019}{Cesena, Italy}
+    \worknote
+
+    \divider
+    
+\end{adjustwidth}
+
+
+\begin{adjustwidth}{}{-9cm}
+    \cvsection{Professional Skills}
+
+    \cvskillblock{Programming Languages}{Kotlin, Java, Scala, Javascript, C, Bash, Python, PHP, Sql, Prolog, C\#, C++}
+    \divider
+
+    \cvskillblock{Other Languages}{Markdown, YAML, \LaTeX{}, HTML, CSS, XML, JSON}
+    \divider
+
+    \cvskillblock{Technologies}{Git, Docker, Kubernetes, Ansible, Android, Vue, Spring, Jacamo, Jason}
+    \divider
+
+    \cvskillblock{Programming Paradigms}{Object Oriented Programming, Functional Programming, Agent Oriented Programming, Logic Programming, Event Driven Programming, Imperative/Procedural Programming}
+    \divider
+
+    \cvskillblock{Project Management}{Scrum, Agile}
+    \divider
+\end{adjustwidth}
+
+\begin{adjustwidth}{}{-9cm}
+    \cvsection{Portfolio}
+
+    \textbf{JaKtA}\\
+    \github{\href{https://github.com/jakta-bdi}{github.com/jakta-bdi}}\\
+    \textit{10/2022--03/2023}\\ \smallskip
+    \underline{Ja}son-like \underline{K}o\underline{t}lin \underline{A}gents (JaKtA): a Kotlin internal DSL meant to seamlessly integrate BDI agents into a mainstream programming language, thus adding AOP to Kotlin as an additional paradigm, retaining its toolchain, libraries, and OOP/FP abstractions. The project was made for academic purposes for the ``Intelligent System Engineering'' course and then extended for the Master Degree Thesis.\\ \smallskip
+    {\small \notesymbol \hspace{0.5em} Paper submitted for publication to PAAMS 2023 conference}\\
+    \smallskip
+    \textbf{Language:} Kotlin\\
+    \textbf{Keywords:} Domain Specific Language, Gradle Multi-Project, Domain Driven Design
+
+    \divider
+
+    \textbf{Smart Waste Collection}\\
+    \github{\href{https://github.com/SmartWasteCollection}{github.com/SmartWasteCollection}}\\
+    \book{\href{https://smartwastecollection.github.io/documentation/}{smartwastecollection.github.io/documentation}}\\
+    \textit{04--10/2022}\\ \smallskip
+    The aim of the project was to optimize the management of waste collection using \textbf{Digital Twins} over a simulated environment.
+    The project was made for academic purposes for ``Laboratorio dei Sistemi Software'' and ``Pervasive Computing'' courses.\\
+    \smallskip
+
+    \textbf{Language:} Kotlin\\
+    \textbf{Keywords:} Digital Twins, Microservices, Azure Cloud, CI/CD, Domain Driven Design
+
+    \divider
+
+    \clearpage
+
+    \textbf{Smart Subway}\\
+    \textit{01--02/2022}\\ \smallskip
+    The objective was to create a smart system for the management and monitoring of metropolitan stations.
+    The topic was used for the development of two projects for two different Master Degree courses: the first was ``Smart City e Tecnologie Mobili'' course regarding an implementation using AWS technologies,
+    the second was ``Project Management'' course to carry out all Project Management Lifecycle phases.\\ \smallskip
+    \textbf{Keywords:} AWS Cloud, IoT, RFID
+
+    \divider
+
+    \textbf{Bunny Survival}\\
+    \github{\href{https://github.com/anitvam/pps-bunny}{github.com/anitvam/pps-bunny}}\\
+    \textit{08--10/2021}\\ \smallskip
+    An open-source simulator of a bunny population made for academic purposes under the course ``Paradigmi di Programmazione e Svilupp'' inspired from the interactive simulator \href{https://phet.colorado.edu/en/simulations/natural-selection}{\underline{Natural Selection}} developed by University of Colorado.\\ \smallskip
+    \textbf{Language:} Scala\\
+    \textbf{Keywords:} Scrum
+
+    \divider
+
+    \textbf{\textbf{Ca' Foscari Jisho}}\\
+    \link{\href{https://jisho.unive.it/}{jisho.unive.it}}\\
+    \textit{05--07/2021} \\ \smallskip
+    Web application for italian-japanese translations made for academic purposes under the course ``Applicazioni and Servizi Web'' in collaboration with the research group \href{http://www.edrdg.org}{\underline{\textbf{EDRDG}}} of \textbf{Ca' Foscari University} in Venice, Italy.\\ \smallskip
+    \textbf{Keywords:} Vue, Docker, Ansible, Javascript, Agile
+
+    \divider
+\end{adjustwidth}
+
+\begin{adjustwidth}{}{-9cm}
     \cvsection{INTERESTS}
 
     \cvtag{Kubernetes}
@@ -108,70 +188,6 @@
     \cvtag{User Experience and User Interface}
     \cvtag{Design}
     \cvtag{Photography}
-    \divider
-
-
-    \cvsection{Professional Skills}
-    \textbf{Programming Languages} \\ \smallskip
-    Java, Vue, Javascript, C, Kotlin, Scala, Python, PHP, C\#, C++, Android
-
-    \divider
-
-    \textbf{Technologies} \\ \smallskip
-    Git, Docker, Kubernetes, Ansible
-
-    \divider
-
-    \textbf{Patterns \& Practices} \\ \smallskip
-    Object Oriented Programming, Functional Programming, Agent Programming
-
-    \divider
-
-    \textbf{Project Management} \\ \smallskip
-    Scrum, Agile
-
-    \divider
-
-    \clearpage
-
-\begin{adjustwidth}{}{-10cm}
-    \cvsection{PROJECTS}
-    
-    \textbf{Smart Waste Collection}\\
-    \github{\href{https://github.com/SmartWasteCollection}{github.com/SmartWasteCollection}}\\
-    \book{\href{https://smartwastecollection.github.io/documentation/}{smartwastecollection.github.io/documentation}}\\
-    \textit{April to October 2022}\\ \smallskip
-    The aim of the project was to optimize the management of waste collection using \textbf{Digital Twins} over a simulated environment.
-    The project was made for academic purposes for "Laboratorio dei Sistemi Software" and "Pervasive Computing" courses.\\
-    \smallskip
-
-    \textbf{Language:} Kotlin\\
-    \textbf{Technologies:} Digital Twins, Microservices, Azure Cloud, CI/CD
-
-    \divider
-
-    \textbf{Smart Subway}\\
-    \textit{2022}\\ \smallskip
-    The objective was to create a smart system for the management and monitoring of metropolitan stations.
-    The topic was used for the development of two projects for two different Master Degree courses: the first was "Smart City e Tecnologie Mobili" course regarding an implementation using AWS technologies,
-    the second was "Project Management" course to carry out all Project Management Lifecycle phases.\\ \smallskip
-    \textbf{Technologies:} AWS Cloud, IoT, RFID
-
-    \divider
-
-    \textbf{Bunny Survival}\\
-    \github{\href{https://github.com/anitvam/pps-bunny}{github.com/anitvam/pps-bunny}}\\
-    \textit{August to October 2021}\\ \smallskip
-    An open-source simulator of a bunny population made for academic purposes under the course "Paradigmi di Programmazione e Sviluppo" inspired from the interactive simulator \href{https://phet.colorado.edu/en/simulations/natural-selection}{\underline{Natural Selection}} developed by University of Colorado.\\ \smallskip
-    \textbf{Language:} Scala
-
-    \divider
-
-    \textbf{\textbf{Ca' Foscari Jisho}}\\
-    \link{\href{https://jisho.unive.it/}{jisho.unive.it}}\\
-    \textit{May to July 2021} \\ \smallskip
-    Web application for italian-japanese translations made for academic purposes under the course "Applicazioni and Servizi Web" in collaboration with the research group \href{http://www.edrdg.org}{\underline{EDRDG}}.\\ \smallskip
-    \textbf{Technologies:} Vue, Docker, Ansible, Javascript
 
     \divider
 \end{adjustwidth}
