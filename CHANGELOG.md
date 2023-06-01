@@ -1,3 +1,10 @@
+## [0.6.3](https://github.com/anitvam/curriculum-vitae/compare/v0.6.2...v0.6.3) (2023-06-01)
+
+
+### Bug Fixes
+
+* update paper conference ([e8a5e79](https://github.com/anitvam/curriculum-vitae/commit/e8a5e79a5ae085f69afc7aeff1e3f8fbd34a12de))
+
 ## [0.6.2](https://github.com/anitvam/curriculum-vitae/compare/v0.6.1...v0.6.2) (2023-05-11)
 
 
