@@ -25,7 +25,7 @@ jobs:
           mkdir -p assets
           cp ./*.pdf ./assets/
       - name: Push Assets
-        uses: stefanzweifel/git-auto-commit-action@v4.16.0
+        uses: stefanzweifel/git-auto-commit-action@v5.0.0
         with:
           file_pattern: assets/*
           commit_message: "chore(ci): Add compiled pdf into assets [skip ci]"
@@ -49,7 +49,7 @@ jobs:
           git pull
           rm -frd assets
       - name: Push Assets
-        uses: stefanzweifel/git-auto-commit-action@v4.16.0
+        uses: stefanzweifel/git-auto-commit-action@v5.0.0
         with:
           commit_message: "chore(ci): Remove compiled pdf from assets [skip ci]"
           branch: ${{ github.head_ref }}
