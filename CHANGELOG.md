@@ -1,3 +1,10 @@
+## [0.7.1](https://github.com/anitvam/curriculum-vitae/compare/v0.7.0...v0.7.1) (2023-11-16)
+
+
+### Bug Fixes
+
+* Update deploy.yml ([47e8729](https://github.com/anitvam/curriculum-vitae/commit/47e87295968329e79294afc78a90eb49732e1f66))
+
 # [0.7.0](https://github.com/anitvam/curriculum-vitae/compare/v0.6.3...v0.7.0) (2023-11-16)
 
 
