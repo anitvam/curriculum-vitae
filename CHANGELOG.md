@@ -1,3 +1,16 @@
+# [0.7.0](https://github.com/anitvam/curriculum-vitae/compare/v0.6.3...v0.7.0) (2023-11-16)
+
+
+### Bug Fixes
+
+* Update deploy.yml ([9cbe354](https://github.com/anitvam/curriculum-vitae/commit/9cbe35453b89ba9a0dd906ed93693e5434c980db))
+* Update renovate.json ([463cbe4](https://github.com/anitvam/curriculum-vitae/commit/463cbe45bfe8d31b34372795503fd9de5fd25500))
+
+
+### Features
+
+* update cv ([80dfe96](https://github.com/anitvam/curriculum-vitae/commit/80dfe96100c446f3cd036052f3086b50361f499c))
+
 ## [0.6.3](https://github.com/anitvam/curriculum-vitae/compare/v0.6.2...v0.6.3) (2023-06-01)
 
 
