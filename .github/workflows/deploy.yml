@@ -24,32 +24,9 @@ jobs:
         run: |
           mkdir -p assets
           cp ./*.pdf ./assets/
-      - name: Push Assets
-        uses: stefanzweifel/git-auto-commit-action@v5.0.0
-        with:
-          file_pattern: assets/*
-          commit_message: "chore(ci): Add compiled pdf into assets [skip ci]"
-          branch: ${{ github.head_ref }}
 
       - name: semver
-        uses: anitvam/conventionalcommit-semantic-releasing@main
+        uses: anitvam/conventionalcommit-semantic-releasing@v0.6.5
         with:
           token: ${{ secrets.PERSONAL_TOKEN }}
 
-  delete-assets:
-    needs: compile
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.PERSONAL_TOKEN }}
-      - name: Delete assets
-        run: |
-          git pull
-          rm -frd assets
-      - name: Push Assets
-        uses: stefanzweifel/git-auto-commit-action@v5.0.0
-        with:
-          commit_message: "chore(ci): Remove compiled pdf from assets [skip ci]"
-          branch: ${{ github.head_ref }}
