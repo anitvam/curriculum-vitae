@@ -1,3 +1,13 @@
 .idea/
 out*/
 .vscode/
+
+*.aux
+*.bbl
+*.blg
+*.fdb*
+*.fls
+*.log
+*.out
+main.pdf
+*.gz
