@@ -1,3 +1,10 @@
+# [0.8.0](https://github.com/anitvam/curriculum-vitae/compare/v0.7.2...v0.8.0) (2024-02-13)
+
+
+### Features
+
+* add publications and mentions ([f89ed7a](https://github.com/anitvam/curriculum-vitae/commit/f89ed7af8bf409e827bb6d3d04a2a424c8ddd2ca))
+
 ## [0.7.2](https://github.com/anitvam/curriculum-vitae/compare/v0.7.1...v0.7.2) (2023-11-16)
 
 
