@@ -1,3 +1,10 @@
+## [0.8.1](https://github.com/anitvam/curriculum-vitae/compare/v0.8.0...v0.8.1) (2024-02-15)
+
+
+### Bug Fixes
+
+* Update main.tex ([962375a](https://github.com/anitvam/curriculum-vitae/commit/962375af2550154a26d1676d0b2d0f512b1aa307))
+
 # [0.8.0](https://github.com/anitvam/curriculum-vitae/compare/v0.7.2...v0.8.0) (2024-02-13)
 
 
