@@ -44,8 +44,11 @@
             \begin{minipage}{0.2\linewidth}
                 \raggedright \faCalendar \hspace{0.5em}#3
             \end{minipage}
+            \begin{minipage}{0.2\linewidth}
+                \raggedright \faMapMarker \hspace{0.5em}#4
+            \end{minipage}
             %\parbox[r]{0.3\linewidth}{\faCalendar \hspace{0.5em}#3}%
-            \ifstrequal{#4}{}{}{\parbox[r]{0.2\linewidth}{\faMapMarker\hspace{0.5em}#4}}\par
+            %\ifstrequal{#4}{}{}{\parbox[r]{0.5\linewidth}{\faMapMarker\hspace{0.5em}#4}}\par
         }
     }
 }
