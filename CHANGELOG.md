@@ -1,3 +1,10 @@
+# [0.10.0](https://github.com/anitvam/curriculum-vitae/compare/v0.9.0...v0.10.0) (2024-06-18)
+
+
+### Features
+
+* update cv ([d92e394](https://github.com/anitvam/curriculum-vitae/commit/d92e3948055a5984ff62ae7d8a9f3dae9c620574))
+
 # [0.9.0](https://github.com/anitvam/curriculum-vitae/compare/v0.8.1...v0.9.0) (2024-06-14)
 
 
