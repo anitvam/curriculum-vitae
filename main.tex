@@ -65,10 +65,18 @@
 \begin{adjustwidth}{}{-10cm}
     \cvsection{Publications}
 
-    \renewcommand{\bibsection}{}
+    % \renewcommand{\bibsection}{}
+    % \nocite{*}
+    % \bibliographystyle{unsrtnat}
+    % \bibliography{biblio}
+
+    \section{Accepted}
+
     \nocite{*}
-    \bibliographystyle{unsrtnat}
-    \bibliography{biblio}
+    \printbibliography[heading=none, check=notpub]
+
+    \section{Published}
+    \printbibliography[heading=none, check=pub]
 
 
  %   \divider
@@ -84,7 +92,19 @@
 
     \cvblock{Best Paper Award}{EMAS 2024 {\newline \scriptsize 12th International Workshop on Engineering Multi-Agent Systems}}{07 May 2024}{Auckland, New Zealand}
 
+    \divider
+
+    \cvblock{Best Poster Award}{ACSOS 2024 {\newline \scriptsize 5th IEEE International Conference on Autonomic Computing and Self-Organizing Systems}}{20 Sep 2024}{Aarhus, Denmark}
+
   %  \divider
+
+\end{adjustwidth}
+
+
+\begin{adjustwidth}{}{-10cm}
+    \cvsection{Participation in program committees}
+
+    \cvblock{}{Artifact Evaluation Committee}{2024}{SLE (Software Language Engineering)}
 
 \end{adjustwidth}
 
@@ -102,10 +122,12 @@
 
 \end{adjustwidth}
 
+\newpage
+
 \begin{adjustwidth}{}{-10cm}
     \cvsection{Tutoring}
 
-    \cvblock{Tutor for the course \\ ``Object-Oriented Programming''}{DISI - Laurea in Ingegneria e Scienze Informatiche \newline University of Bologna}{A.Y. 2022/2023, \newline A.Y. 2023/2024}{Cesena, Italy}
+    \cvblock{Tutor for the course \\ ``Object-Oriented Programming''}{DISI - Laurea in Ingegneria e Scienze Informatiche \newline University of Bologna}{A.Y. 2022/2023, \newline A.Y. 2023/2024, \newline A.Y. 2024/2025}{Cesena, Italy}
     \textbf{Supervisor: Mirko Viroli}
 
     \divider

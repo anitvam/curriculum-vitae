@@ -2,6 +2,10 @@
 out*/
 .vscode/
 
+*.xml
+*.pdf
+*.bcf*
+*.bbl*
 *.aux
 *.bbl
 *.blg
