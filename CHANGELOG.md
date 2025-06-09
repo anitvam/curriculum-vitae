@@ -1,3 +1,11 @@
+# [0.12.0](https://github.com/anitvam/curriculum-vitae/compare/v0.11.0...v0.12.0) (2025-06-09)
+
+
+### Features
+
+* update conference activities ([2cc7089](https://github.com/anitvam/curriculum-vitae/commit/2cc7089a0f0f5d236512c74ad31c0a63981bafa1))
+* update publications ([20e6a12](https://github.com/anitvam/curriculum-vitae/commit/20e6a121554523b3dd861b8e7420f2d383034cdb))
+
 # [0.11.0](https://github.com/anitvam/curriculum-vitae/compare/v0.10.0...v0.11.0) (2024-11-14)
 
 
