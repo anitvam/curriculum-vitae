@@ -72,6 +72,28 @@ sorting=ynt,
     }
 }
 
+\newcommand{\cvblockActivities}[4]{
+    \makebox[\linewidth][c]{
+        \parbox[l]{0.3\linewidth}{
+            {{\large\color{emphasis}#1}\par
+            \smallskip
+            \textbf{\color{accent}#2}}\par
+            \smallskip
+        }
+        \makebox[0.7\linewidth][c]{
+            \small
+            \begin{minipage}{0.1\linewidth}
+                \raggedright \faCalendar \hspace{0.5em}#3
+            \end{minipage}
+            \begin{minipage}{0.55\linewidth}
+                \raggedright \faAt \hspace{0.5em}#4
+            \end{minipage}
+            %\parbox[r]{0.3\linewidth}{\faCalendar \hspace{0.5em}#3}%
+            %\ifstrequal{#4}{}{}{\parbox[r]{0.5\linewidth}{\faMapMarker\hspace{0.5em}#4}}\par
+        }
+    }
+}
+
 \newcommand{\cvskillblock}[2]{
     \makebox[\linewidth][c]{
         \parbox[c]{0.4\linewidth}{
