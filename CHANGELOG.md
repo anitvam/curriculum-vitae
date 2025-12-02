@@ -1,3 +1,10 @@
+# [0.14.0](https://github.com/anitvam/curriculum-vitae/compare/v0.13.0...v0.14.0) (2025-12-02)
+
+
+### Features
+
+* update ([fdd525d](https://github.com/anitvam/curriculum-vitae/commit/fdd525da35713756040f8dcc037407fb44f1313f))
+
 # [0.13.0](https://github.com/anitvam/curriculum-vitae/compare/v0.12.0...v0.13.0) (2025-09-11)
 
 
