@@ -16,7 +16,7 @@ jobs:
           fetch-depth: 0
 
       - name: Build latex
-        uses: xu-cheng/latex-action@v3
+        uses: xu-cheng/latex-action@v4
         with:
           root_file: main.tex
 
