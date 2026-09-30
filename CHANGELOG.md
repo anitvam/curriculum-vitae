@@ -1,3 +1,11 @@
+# [0.16.0](https://github.com/anitvam/curriculum-vitae/compare/v0.15.0...v0.16.0) (2026-09-30)
+
+
+### Features
+
+* update acsos roles ([5486d4f](https://github.com/anitvam/curriculum-vitae/commit/5486d4fdaed09f22793a2eccdca2bb6606923b14))
+* update publications ([9ef5106](https://github.com/anitvam/curriculum-vitae/commit/9ef510616611d152533b01abaf8eb910f2f8b224))
+
 # [0.15.0](https://github.com/anitvam/curriculum-vitae/compare/v0.14.0...v0.15.0) (2026-05-25)
 
 
